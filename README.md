@@ -6,3 +6,6 @@ Une gestion de la BDD via PDO est mise en place pour la facilité.
 Une option de création des users avec la possibilité de se connecter en user est aussi mise en place.
 Le rendu css du site n'a pas d'importance pour ce projet, mais un peu d'attention a quand même était donné à ceci.
 
+
+********* J'utilise des help.txt pour ajouter quelques notes explicatives de certains éléments des fichiers/dossiers *********
+
