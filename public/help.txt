@@ -1,0 +1,2 @@
+.htaccess
+with its code here will redirect any wrong page name to home page i.e. index.php inside public folder

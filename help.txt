@@ -1,0 +1,5 @@
+  .htaccess here will:
+  RewriteRule ^$ public/ [L]  <- rewrite all that starts by "public" (in adrress bar) 
+  RewriteRule (.*) public/$1 [L]  
+
+so if you type localhost/mvcframework it will still redirect to index.php page
