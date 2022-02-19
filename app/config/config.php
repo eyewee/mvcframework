@@ -8,12 +8,12 @@
 	//mysqladmin --user=root password "you_password_here"
 	//also add your password to C:\~\XAMPP\phpMyAdmin\config.inc.php
 	//in $cfg['Servers'][$i]['password'] = 'mywebsite';
-	define('DB_HOST', '127.0.0.1:8098');
+	define('DB_HOST', '127.0.0.1:8098'); //can see in MyPhpAdmin
 	define('DB_USER', 'root');
 	define('DB_PASS', 'mywebsite'); //see my.ini config inside xampp mysql config
 	define('DB_NAME', 'mvcframework');
 
-	//this will return C:\Programs\XAMPP\htdocs\mvcframework\app
+	//the following will return C:\Programs\XAMPP\htdocs\mvcframework\app
 	//instead of C:\Programs\XAMPP\htdocs\mvcframework\app\config\config.php
 	//echo dirname(dirname(__FILE__));
 

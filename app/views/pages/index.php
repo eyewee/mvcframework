@@ -1,4 +1,7 @@
 <?php 	
+
+	//this is the main page with all the variables
+	
 	//echo SITENAME;
 	//echo $data['title'];
 	//var_dump($data);
