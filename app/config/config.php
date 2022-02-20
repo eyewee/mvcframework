@@ -8,6 +8,8 @@
 	//mysqladmin --user=root password "you_password_here"
 	//also add your password to C:\~\XAMPP\phpMyAdmin\config.inc.php
 	//in $cfg['Servers'][$i]['password'] = 'mywebsite';
+
+	//define() defines a constant
 	define('DB_HOST', '127.0.0.1:8098'); //can see in MyPhpAdmin
 	define('DB_USER', 'root');
 	define('DB_PASS', 'mywebsite'); //see my.ini config inside xampp mysql config

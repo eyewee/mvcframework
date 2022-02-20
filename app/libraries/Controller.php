@@ -1,8 +1,11 @@
 <?php 
 	//Load the model and view
 	class Controller {
+
+		//creates an instance of a model provided in parameter '$model' and returns it
 		public function model($model) {
 			require_once '../app/models/' . $model . '.php';
+			
 			//instantiate model found
 			return new $model();
 		}

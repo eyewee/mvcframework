@@ -2,7 +2,7 @@
 	//this will establish connection with database and some pdo methods
 	//database params are already defined in config.php but no values where added,
 	//after adding those values:
-	//--creation connection to database
+	//--creating connection to database
 	class Database {
 		private $dbHost = DB_HOST;
 		private $dbUser = DB_USER;
@@ -29,12 +29,12 @@
 			}
 		} //here we can test it with a model 'User' for example as I did
 
-		//Allow writing queries
+		// Allow writing queries
 		public function query($sql) {
 			$this->statement = $this->dbHandler->prepare($sql);
 		}
 
-		//bind values
+		// Bind values
 		public function bind($parameter, $value, $type = null) {
 			switch (is_null($type)) {
 				case is_int($value):
@@ -52,7 +52,7 @@
 			$this->statement->bindValue($parameter, $value, $type);
 		}
 
-		//Executing prepared statement
+		//Executing prepared statement (query statement)
 		private function execute() {
 			return $this->statement->execute();
 		}
